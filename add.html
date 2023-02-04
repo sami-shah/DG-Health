@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="../assets/"
+<html lang="en" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="assets/"
     data-template="vertical-menu-template-free">
 
 <head>
@@ -18,7 +18,7 @@
 
 
     <!-- Icons. Uncomment required icon fonts -->
-    <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="assets/vendor/fonts/boxicons.css" />
 
     <!-- Core CSS -->
     <link rel="stylesheet" href="css/core.css" class="template-customizer-core-css" />
@@ -114,7 +114,7 @@
                                 <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);"
                                     data-bs-toggle="dropdown">
                                     <div class="avatar avatar-online">
-                                        <img src="../assets/img/avatars/1.png" alt
+                                        <img src="assets/img/avatars/1.png" alt
                                             class="w-px-40 h-auto rounded-circle" />
                                     </div>
                                 </a>
@@ -124,7 +124,7 @@
                                             <div class="d-flex">
                                                 <div class="flex-shrink-0 me-3">
                                                     <div class="avatar avatar-online">
-                                                        <img src="../assets/img/avatars/1.png" alt
+                                                        <img src="assets/img/avatars/1.png" alt
                                                             class="w-px-40 h-auto rounded-circle" />
                                                     </div>
                                                 </div>
@@ -187,20 +187,24 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="card mb-4">
-                                    <h5 class="card-header">Lab</h5>
+                                    <h5 class="card-header">Place of # 1</h5>
+
                                     <div class="card-body">
-                                        <div class="mb-3 form-floating">
-                                            <input type="text" class="form-control" id="floatingInput"
-                                                placeholder="First Name" aria-describedby="floatingInputHelp">
-                                            <label for="floatingInput">Name</label>
-                                        </div>
-                                        <div class="mb-3 form-floating">
-                                            <input type="text" class="form-control" id="floatingInput"
-                                                placeholder="Last Name" aria-describedby="floatingInputHelp">
-                                            <label for="floatingInput">Name</label>
-                                        </div>
+
+                                        <p class="lead mb-0">
+                                            Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est
+                                            non commodo luctus.Duis mollis, est non commodo luctus.
+                                        </p>
+                                    </div>
+                                    <hr>
+                                    <div class="card-footer text-end">
+                                        <a href="" class="btn btn-outline-primary">Show in Map</a>
+                                        <a href="" class="btn btn-outline-info">Button</a>
+                                        <a href="" class="btn btn-primary">Button</a>
+                                        <a href="" class="btn btn-info">Button</a>
                                     </div>
                                 </div>
+
                             </div>
 
 
@@ -223,21 +227,87 @@
                                                     id="html5-search-input">
                                             </div>
                                         </div>
+                                        
                                         <div class="mb-3 row">
-                                            <label for="html5-email-input" class="col-md-2 col-form-label">Email</label>
+                                            <label for="html5-url-input" class="col-md-2 col-form-label">File</label>
                                             <div class="col-md-10">
-                                                <input class="form-control" type="email" value=""
-                                                    id="html5-email-input">
+                                                <input class="form-control" type="file" id="formFile">
                                             </div>
                                         </div>
                                         <div class="mb-3 row">
-                                            <label for="html5-url-input" class="col-md-2 col-form-label">URL</label>
+                                            <label for="html5-url-input" class="col-md-2 col-form-label">Options</label>
                                             <div class="col-md-10">
-                                                <input class="form-control" type="url" value="" id="html5-url-input">
+                                                <select class="form-select" id="exampleFormControlSelect1"
+                                                    aria-label="Default select example">
+                                                    <option selected="">Open this select menu</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
                                             </div>
                                         </div>
 
+                                        <div class="mb-3 row">
+                                            <label for="html5-url-input" class="col-md-2 col-form-label">Options</label>
+                                            <div class="col-md-10">
+                                                <input class="form-control" list="datalistOptions" id="exampleDataList"
+                                                    placeholder="Type to search...">
+                                                <datalist id="datalistOptions">
+                                                    <option value="San Francisco"></option>
+                                                    <option value="New York"></option>
+                                                    <option value="Seattle"></option>
+                                                    <option value="Los Angeles"></option>
+                                                    <option value="Chicago"></option>
+                                                </datalist>
+                                            </div>
+                                        </div>
 
+                                        <div class="mb-3 row">
+                                            <label for="html5-url-input" class="col-md-2 col-form-label">Checkbo</label>
+                                            <div class="col-md-10">
+                                                <div class="form-check form-check-inline mt-1">
+                                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                    <label class="form-check-label" for="inlineCheckbox1">Text</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                    <label class="form-check-label" for="inlineCheckbox2">Text</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                    <label class="form-check-label" for="inlineCheckbox2">Text</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3 row">
+                                            <label for="html5-url-input" class="col-md-2 col-form-label">Radio</label>
+                                            <div class="col-md-10">
+                                                <div class="form-check form-check-inline mt-1">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                    <label class="form-check-label" for="inlineRadio1">Text</label>
+                                                </div>
+                                                <div class="form-check form-check-inline mt-1">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                    <label class="form-check-label" for="inlineRadio1">Text</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3 row">
+                                            <label for="html5-date-input" class="col-md-2 col-form-label">Date</label>
+                                            <div class="col-md-10">
+                                                <input class="form-control" type="date" value="2021-06-18" id="html5-date-input">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <hr>
+                                    <div class="card-footer text-end">
+                                        <a href="" class="btn btn-outline-primary">Button</a>
+                                        <a href="" class="btn btn-outline-info">Button</a>
+                                        <a href="" class="btn btn-primary">Button</a>
+                                        <a href="" class="btn btn-info">Button</a>
                                     </div>
                                 </div>
                             </div>
@@ -259,9 +329,9 @@
 
 
     <!-- Core JS -->
-    <script src="../assets/vendor/js/bootstrap.js"></script>
-    <script src="../assets/vendor/js/menu.js"></script>
-    <script src="../assets/js/main.js"></script>
+    <script src="assets/vendor/js/bootstrap.js"></script>
+    <script src="assets/vendor/js/menu.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
